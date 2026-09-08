@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+   
+}
+a{
+    text-decoration: none;
+   color: white;
+}
+li{
+    list-style: none;
+}
+.menu-bar{
+    display: flex;
+    background-color: rgb(76, 7, 236);
+    
+}
+button{
+    padding: 10px;
+    background-color: rgb(76, 7, 236);
+    border: 0;
+    color: white;
+}
+.features, .choose, .register{
+    font-weight: bolder;
+    font-size: 24px;
+}
+.p-design{
+    border-style: solid;
+    width: 300px;
+    height: 120px;
+    border-color: greenyellow;
+    text-align: center;
+    padding: 10px;
+    background-color: brown;
+    border-width: 5px;
+    border-radius: 20px;
+    color: white;
+    outline: 9px;
+    outline-style: groove;
+    outline-color: blueviolet;
+    margin: auto;
+    
+}
+a:hover{
+    color: aqua;
+}
+h1{
+    background: linear-gradient(green,brown);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
